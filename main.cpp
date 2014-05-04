@@ -212,7 +212,7 @@ int main(int argc, char** argv)
         }
         
         h=neuronik.life(training_data);
-        file_write<<test[i][6]*40<<","<<h<<endl;    //zápis výstupu a očakávaného vsupu do súboru
+        file_write<<test[i][6]*40<<","<<h<<endl;    //zápis výstupu a očakávaného výstupu do súboru
         chyba+=fabs(int(test[i][6]*40)-h);      
     }
     
