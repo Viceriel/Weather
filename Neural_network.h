@@ -21,8 +21,8 @@ class Neural_network {
             int i,j;                    //pomocné premenné
             
             void input_layer(float *input); //vstupná vrstva
-            void first_hidden_layer(void);  //prvá skrztá vrstva
-            void second_hidden_layer(void); //druhá skrztá vrstva
+            void first_hidden_layer(void);  //prvá skrytá vrstva
+            void second_hidden_layer(void); //druhá skrytá vrstva
             void output_layer(void);        //výstupná vrstva
             void run_network(float *input); //spustenie siete
             
