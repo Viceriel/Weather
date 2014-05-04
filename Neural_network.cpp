@@ -97,7 +97,7 @@ void Neural_network::run_network(float* input)  //spustenie siete
  
 }
 
-int Neural_network::learning(float* input)      //režim učenia
+void Neural_network::learning(float* input)      //režim učenia
 {   
     double sum=0;                               //inicializácia pomocnej premennej
     double gamma=0.2;                           //inicializácia parametra učenia
